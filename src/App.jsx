@@ -11,6 +11,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           counts is {count}
         </button>
+        <button onClick={() => alert('hello world!')}>
+          Alert button
+        </button>
       </div>
       
     </>
